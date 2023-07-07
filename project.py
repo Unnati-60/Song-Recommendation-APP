@@ -117,7 +117,7 @@ def main():
     root = tk.Tk()
 
     root.geometry(f"800x650")
-    root.title("Song Recommendation App")
+    root.title("Spotify Song Recommendation App")
 
 # set background image
     bg_image = tk.PhotoImage(file="app.png")
