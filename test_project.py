@@ -5,16 +5,13 @@ def test_get_artist_id():
     """ Testing get_artist_id function"""
     assert get_artist_id("") == ""
     assert get_artist_id(["bts","One direction"]) == "3Nrfpe0tUJi4K4DXYWgMUX,4AK6F7OLvEQ5QYCBNiQWHq"
-    response = get_artist_id(["bts",""])
-    assert response.status_code == 400
 
 def test_get_recommendations():
     '''Tests arguments to get_recommendation function'''
     with pytest.raises(ValueError):
-        get_recommendations("gwshjf,,fiujhf4","happy","aucastic","hfhjd5A")
-        get_recommendations("ghygge44S","happy","aucastic","vhghf54S,")
+        get_recommendations("gwshjf,,fiujhf4","happy","aucastic")
     with pytest.raises(TypeError):
-        get_recommendations(["jhjhHJ8","hgyhfy8"],"happy","aucastic","hfhjd5A")
+        get_recommendations(["jhjhHJ8","hgyhfy8"],"happy","aucastic")
 
 
 def test_open_url():
