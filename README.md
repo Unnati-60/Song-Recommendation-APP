@@ -1,10 +1,10 @@
-# Song Recommendation App
+# Spotify Song Recommendation App
 #### Video Demo: 
 #### Description:
 
 ## About The Project
 
-**Song Recommendation App** is a Python-based gui application that recommends songs based on the user's mood, their favorite artists and genres.The app utilizes the `Spotify API` to retrieve artist information and using audio features  provides recommendations according to moods(such as happy, sad, energetic, or calm).Each recommendation includes the song's name and a direct link to listen to it on Spotify via a web browser.Standard GUI python library [Tkinter](https://python.readthedocs.io/en/stable/library/tkinter.html) is used for user interface.
+**Spotify Song Recommendation App** is a Python-based gui application that recommends songs based on the user's mood, their favorite artists and genres.The app utilizes the `Spotify API` to retrieve artist information and using audio features  provides recommendations according to moods(such as happy, sad, energetic, or calm).Each recommendation includes the song's name and a direct link to listen to it on Spotify via a web browser.Standard GUI python library [Tkinter](https://python.readthedocs.io/en/stable/library/tkinter.html) is used for user interface.
 
 ## Folder Contents
 - **project.py**: This is the file which contains ```main``` function and the other functions necessary to implement the app.
