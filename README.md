@@ -1,5 +1,4 @@
 # Spotify Song Recommendation App
-#### Video Demo: https://youtu.be/NM_bd-RxbVg
 #### Description:
 
 ## About The Project
