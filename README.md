@@ -1,5 +1,5 @@
 # Spotify Song Recommendation App
-#### [VIDEO-DEMO](https://www.veed.io/view/f818bba1-6dff-4ecf-a64f-3827aeaa1ce2?panel=share)
+#### [VIDEO-DEMO](https://youtu.be/NM_bd-RxbVg?feature=shared)
 #### Description:
 
 ## About The Project
